@@ -1,0 +1,43 @@
+Run the following commands from same directory as README file (64 bit only):
+
+Always run the following commands from the directory where Vagrantfile is located:
+vagrant box add precise64 http://files.vagrantup.com/precise64.box
+vagrant up
+
+Wait for box to boot and provision, then:
+
+Login: user:vagrant password:vagrant
+*** vagrant user is a sudoer
+
+That's it! The rest of the info in this file are the notes.
+
+================= Notes ====================
+vagrant --help for list of vagrant commands
+
+Root Login: user:root password:vagrant
+as vagrant user you can always do 'sudo passwd root' and set a new root password
+
+Run Shortcut:
+ - Combination of "super key - r" opens run menu (super key = windows key). You can run programs from there.
+
+Terminal:
+ - use Terminator (Vlads favourite) or your other favourite editor
+
+Pycharm:
+- installed but no icon under system menu? Run it from command line:
+vagrant@pybox64:~$ pycharm.sh
+Once it starts up just use an option to get the system icon.
+
+Text Editor:
+ - Use vim, Geany or Sublime or install your favourite
+
+ File Browser:
+  - Use Xfe or your other favourite file browser
+
+Look and feel + panel settings can be customized to your liking from:
+ - Right click on panel -> Task Bar Settings
+ - Right click on panel -> Panel Settings
+ - Right click on panel -> Panel Settings -> Panel Applets -> Application Launch Bar -> Edit
+ - Start -> Preferences
+ - Right click on desktop
+

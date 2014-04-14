@@ -1,0 +1,29 @@
+{
+  "name": "saz-timezone",
+  "version": "1.2.0",
+  "summary": "UNKNOWN",
+  "author": "saz",
+  "description": "Manage timezone settings via Puppet",
+  "dependencies": [],
+  "types": [],
+  "checksums": {
+    ".bundle/config": "7f1c988748783d2a8d455376eed1470c",
+    ".fixtures.yml": "b29be5bbb22e2f752c5fb8b6ea1df179",
+    ".gemfile": "14bd1a18be3e43568e7825c12a3dc0aa",
+    ".gemfile.lock": "6b02c0ddb59e1a69fc10c0f11321bb02",
+    ".travis.yml": "3b97b60af725a2b5ed15ba545a4679fd",
+    "LICENSE": "2a944942e1496af1886903d274dedb13",
+    "Modulefile": "c61261e5230f3d4a74b8cc878aab697b",
+    "README.md": "5fd6667527ecceaa91c92edbed25202f",
+    "Rakefile": "0254db5d3fc38c67a2c160d7296a24f8",
+    "manifests/init.pp": "43403725f22e784dc27f0b29a3f77302",
+    "manifests/params.pp": "8c4ccf6a7ceaed16783e26f9c0bd11d3",
+    "spec/classes/timezone_spec.rb": "4d2fdcd9754e7851f43263752c0f287c",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "spec/spec_helper.rb": "0db89c9a486df193c0e40095422e19dc",
+    "tests/init.pp": "6bafc4062b1bafbdf8e36e81b55ee1c5"
+  },
+  "source": "git://github.com/saz/puppet-timezone",
+  "project_page": "https://github.com/saz/puppet-timezone",
+  "license": "Apache License, Version 2.0"
+}
